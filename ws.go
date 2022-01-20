@@ -93,14 +93,14 @@ type BiliConfJson struct {
 //connect websocket
 //go receiving(){if live, chan<-download}
 //go heartbeat()
-var urlId int = 23260932
+var urlId int = 21627536
 
 //var urlId int = 220416
 
 //var urlId int = 220416
 var downloadDir string = "r"
 var downloadChan chan time.Time
-var roomId int = 23260932
+var roomId int = 21627536
 
 func main() {
 	//var urlId int = 220416
